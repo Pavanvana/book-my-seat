@@ -1,0 +1,33 @@
+.show-timeings-container {
+  background: #f5f5fa;
+  height: auto;
+  overflow: hidden;
+  margin-top: 80px;
+  position: fixed;
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+.show-time-card {
+  background: #fff;
+  display: inline-block;
+  color: #2dc492;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #2dc492;
+  margin: 0 5px;
+  min-width: 96px;
+  max-width: 120px;
+  height: 38px;
+  float: none;
+  text-align: center;
+  vertical-align: bottom;
+}
+.bg-color-timeing-card {
+  background-color: #2dc492;
+  color: #ffffff;
+}

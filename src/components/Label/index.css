@@ -1,0 +1,52 @@
+.label-container {
+  height: 32px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 98;
+}
+.each-label-container {
+  display: flex;
+  align-items: center;
+}
+.label-avaliable-box {
+  background-color: #fff;
+  border: 1px solid #1ea83c;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.label-selected-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  margin-left: 32px;
+  background-color: #1ea83c;
+}
+.label-sold-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  margin-left: 32px;
+  background-color: #eee;
+}
+.label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+  margin-left: 8px;
+  font-family: sans-serif;
+}
